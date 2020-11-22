@@ -7,7 +7,7 @@ The original notebook for video generation based on https://neurips2019creativit
 Second notebook with improved method (especially for higher bpm/less dynamic range) music should be complete shortly. 
 
 Example output from my finetuned "Material" model:
-https://streamable.com/v2cg1nb
+https://streamable.com/v2cg1n
 
 ----------------------------------- Original README -----------------------------------------
 
