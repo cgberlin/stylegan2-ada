@@ -1,3 +1,15 @@
+Stylegan2-ada fork to support audio-reactive video generation. 
+This is a hobby repo, primarily for friends, but the colab, etc should remain relatively easy to read and functional.
+
+The original notebook for video generation based on https://neurips2019creativity.github.io/doc/Stylizing%20Audio%20Reactive%20Visuals.pdf is here. 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cgberlin/stylegan2-ada/blob/main/create_music_colab.ipynb)
+
+Second notebook with improved method (especially for higher bpm/less dynamic range) music should be complete shortly. 
+
+
+----------------------------------- Original README -----------------------------------------
+
+
 ## StyleGAN2 with adaptive discriminator augmentation (ADA)<br>&mdash; Official TensorFlow implementation
 
 ![Teaser image](./docs/stylegan2-ada-teaser-1024x252.png)
