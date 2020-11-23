@@ -176,15 +176,15 @@ def main():
     parser.add_argument('--bpf', help='Which layers to use for mid/band frequencies', default=[3, 4, 5])
     parser.add_argument('--lpf', help='Which layers to use for low frequencies', default=[0, 1, 2])
     args = parser.parse_args()
-    generate_from_music(args.get('model_dir'),
-                        args.get('feature_dir'),
-                        args.get('length_high'),
-                        args.get('length_mid'),
-                        args.get('length_low'),
-                        args.get('hpf'),
-                        args.get('bpf'),
-                        args.get('lpf'),
-                        args.get('out_dir'))
+    generate_from_music(args.model_dir,
+                        args.feature_dir,
+                        args.length_high,
+                        args.length_mid,
+                        args.length_low,
+                        args.hpf,
+                        args.bpf,
+                        args.lpf,
+                        args.out_dir)
 
 
 # ----------------------------------------------------------------------------

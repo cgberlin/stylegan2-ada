@@ -3,6 +3,7 @@ https://neurips2019creativity.github.io/doc/Stylizing%20Audio%20Reactive%20Visua
 """
 from argparse import ArgumentParser
 import os
+
 import librosa
 import numpy as np
 import soundfile as sf
@@ -94,7 +95,7 @@ def main():
     parser.add_argument('--music_path', help='Wav file to process', required=True)
     parser.add_argument('--out_dir', help='Where to save the output features', default='./features')
     args = parser.parse_args()
-    extract_features(args.get('music_path'), args.get('out_dir'))
+    extract_features(args.music_path, args.out_dir)
 
 
 # ----------------------------------------------------------------------------
