@@ -50,12 +50,12 @@ def main():
     parser.add_argument('--fps', help='Framerate for the video', default=40)
     parser.add_argument('--resolution', help='Resolution to encode', default=512)
     args = parser.parse_args()
-    create_video(args.get('fps'),
-                 args.get('resolution'),
-                 args.get('input_path'),
-                 args.get('music_path'),
-                 args.get('out_dir'),
-                 args.get('out_file'),)
+    create_video(args.fps,
+                 args.resolution,
+                 args.input_path,
+                 args.music_path,
+                 args.out_dir,
+                 args.out_file)
 
 
 # ----------------------------------------------------------------------------
